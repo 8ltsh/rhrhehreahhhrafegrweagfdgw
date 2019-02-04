@@ -33,4 +33,6 @@ client.on('message', message => {
     embed : banembed
   })
 }
-});//Toxic Codes
+});
+
+client.login(process.env.BOT_TOKEN);
